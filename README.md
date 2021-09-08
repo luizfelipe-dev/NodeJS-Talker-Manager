@@ -18,12 +18,12 @@ A página principal index.js possui os endpoints que chamam os 7 desafios propos
 
 ### :stethoscope: Para testar os endpoints:
 
-com Insomnia ou Postman você pode testar alguns endpoints:
-
 - get /talker/search
 - get /talker/:id
 - post /login
 - delete /talker/:id  
+
+Sugestão: utilize o Thunder Client no VSCode ou os softwares Insomnia ou Postman para testar
 
 ## Ferramentas utilizadas:
 
