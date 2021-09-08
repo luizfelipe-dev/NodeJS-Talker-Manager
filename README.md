@@ -2,7 +2,7 @@
 
 A página principal index.js possui os endpoints que chamam os 7 desafios propostos.
 
-### Habilidades Praticadas:
+### :briefcase: Habilidades Praticadas:
 
 - Realização de operações assíncronas utilizando Callbacks e Promises;
 - Leitura e escrita em arquivos localmente com NodeJS;
@@ -10,13 +10,20 @@ A página principal index.js possui os endpoints que chamam os 7 desafios propos
 - Escrita de APIs utilizando Node e Express;
 - Criação de rotas e aplicação de middlewares.
 
-### Instalação
-
-Para testar a aplicação com Insomnia ou Postman: 
+### :hammer: Instalação: 
 - Baixe o projeto <code>git clone git@github.com:luizfelipe-dev/NodeJS-Talker-Manager.git</code>
 - Entre na pasta <code> cd NodeJS-Talker-Manager </code>
 - Entre na branch <code> git checkout luizfelipedev-talker-manager</code>
 - Instale as dependências com <code> npm install </code> 
+
+### :stethoscope: Para testar os endpoints:
+
+com Insomnia ou Postman você pode testar alguns endpoints:
+
+- get /talker/search
+- get /talker/:id
+- post /login
+- delete /talker/:id  
 
 ## Ferramentas utilizadas:
 
