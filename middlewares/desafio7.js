@@ -1,3 +1,10 @@
+/* 
+
+Exemplo para testar no navegador: 
+localhost:3000/talker/search?q=albuq
+
+*/
+
 const fs = require('fs').promises;
 
 const searchTalker = async (req, res) => {

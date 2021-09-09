@@ -1,3 +1,18 @@
+/* Exemplo para testar: 
+
+Método POST -> localhost:3000/talker/1
+
+JSON no body da requisição:
+    {
+        "name":"Henrique Martins Alvarenga",
+        "age":43,
+        "talk": {
+            "watchedAt":"25/02/2020",
+            "rate":3
+        }
+    }
+*/
+
 const fs = require('fs').promises;
 
 const deleteTalker = async (req, res) => {

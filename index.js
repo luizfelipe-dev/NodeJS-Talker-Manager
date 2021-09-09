@@ -1,3 +1,5 @@
+// This file is the Entrypoint
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const talkRoutes = require('./routes');
@@ -17,5 +19,5 @@ app.get('/', (_request, response) => {
 app.use('*', (_req, res) => res.status(404).json({ message: 'Página não encontrada' }));
 
 app.listen(PORT, () => {
-  console.log(`Server Working on port ${PORT}`);
+  console.log(`Servidor online na porta ${PORT}`);
 });

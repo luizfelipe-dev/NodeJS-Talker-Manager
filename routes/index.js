@@ -21,11 +21,9 @@ const {
 const talkRoutes = Router();
 
 // Desafio 7
-// Exemplo para testar no navegador: localhost:3000/talker/search?q=albuq
 talkRoutes.get('/talker/search', validateToken, searchTalker);
 
 // Desafio 2
-// Exemplo para testar no navegador: localhost:3000/talker/3
 talkRoutes.get('/talker/:id', getTalkerById);
 
 // Desafio 3
