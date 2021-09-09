@@ -14,6 +14,8 @@ app.get('/', (_request, response) => {
   response.status(HTTP_OK_STATUS).send();
 });
 
+app.use('*', (_req, res) => res.status(404).json({ message: 'Página não encontrada' }));
+
 app.listen(PORT, () => {
   console.log(`Server Working on port ${PORT}`);
 });
