@@ -8,22 +8,24 @@ const {
     validateTalkRate,
     validateToken,
     validateIdFromURL,
-    } = require('../validations');
+    } = require('../validations/validations');
   
-  const getAllTalkers = require('../desafio1');
-  const getTalkerById = require('../desafio2');
-  const login = require('../desafio3');
-  const createTalker = require('../desafio4');
-  const updateTalker = require('../desafio5');
-  const deleteTalker = require('../Desafio6');
-  const searchTalker = require('../desafio7');
+  const getAllTalkers = require('../middlewares/desafio1');
+  const getTalkerById = require('../middlewares/desafio2');
+  const login = require('../middlewares/desafio3');
+  const createTalker = require('../middlewares/desafio4');
+  const updateTalker = require('../middlewares/desafio5');
+  const deleteTalker = require('../middlewares/Desafio6');
+  const searchTalker = require('../middlewares/desafio7');
  
 const talkRoutes = Router();
 
 // Desafio 7
+// Exemplo para testar no navegador: localhost:3000/talker/search?q=albuq
 talkRoutes.get('/talker/search', validateToken, searchTalker);
 
 // Desafio 2
+// Exemplo para testar no navegador: localhost:3000/talker/3
 talkRoutes.get('/talker/:id', getTalkerById);
 
 // Desafio 3
