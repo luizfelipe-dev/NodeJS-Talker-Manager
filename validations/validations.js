@@ -91,6 +91,42 @@ const validateIdFromURL = (req, res, next) => {
     next();
 };
 
+function validateEmail(email, res) {
+    if (!email || email === '') {
+      return res.status(400).json({
+        message: 'O campo "email" é obrigatório',
+      });
+    } 
+    
+    if (!(email.includes('@')) || !(email.includes('.com'))) {
+      return res.status(400).json({
+        message: 'O "email" deve ter o formato "email@email.com"',
+      });
+    }
+    return false;
+  }
+  
+  function validatePassword(password, res) {
+    if (typeof (password) !== 'number') {
+      return res.status(400).json({
+        message: 'O campo "password" deve ser do tipo numérico',
+      });
+    }
+  
+    if (!password || password === '') {
+      return res.status(400).json({
+        message: 'O campo "password" é obrigatório',
+      });
+    }
+  
+    if (password.toString().length < 6) {
+      return res.status(400).json({
+        message: 'O "password" deve ter pelo menos 6 caracteres',
+      });
+    }
+    return false;
+  }
+
 module.exports = {
     validateAge,
     validateName,
@@ -99,4 +135,6 @@ module.exports = {
     validateTalkRate,
     validateToken,
     validateIdFromURL,
+    validateEmail,
+    validatePassword,
 };
