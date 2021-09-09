@@ -1,6 +1,6 @@
 # Boas vindas ao repositório do Talker Manager!
 
-A página principal index.js possui os endpoints que chamam os 7 desafios propostos.
+Os desafios propostos foram desenvolvidos na pasta middlewares, routes e validations
 
 ### :briefcase: Habilidades Praticadas:
 
@@ -8,22 +8,17 @@ A página principal index.js possui os endpoints que chamam os 7 desafios propos
 - Leitura e escrita em arquivos localmente com NodeJS;
 - Realização de chamadas de funções em cadeia;
 - Escrita de APIs utilizando Node e Express;
-- Criação de rotas e aplicação de middlewares.
+- Criação de rotas e aplicação de middlewares e suas validações.
 
 ### :hammer: Instalação: 
 - Baixe o projeto <code>git clone git@github.com:luizfelipe-dev/NodeJS-Talker-Manager.git</code>
 - Entre na pasta <code> cd NodeJS-Talker-Manager </code>
-- Entre na branch <code> git checkout luizfelipedev-talker-manager</code>
 - Instale as dependências com <code> npm install </code> 
+- Inicie o servidor com <code> npm start </code> 
 
 ### :stethoscope: Para testar os endpoints:
 
-- get /talker/search
-- get /talker/:id
-- post /login
-- delete /talker/:id  
-
-Sugestão: utilize o Thunder Client no VSCode ou os softwares Insomnia ou Postman para testar
+Siga as informações comentadas dentro do arquivo index.js **na pasta router**
 
 ## Ferramentas utilizadas:
 
