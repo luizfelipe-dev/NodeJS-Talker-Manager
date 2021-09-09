@@ -13,7 +13,6 @@ Os desafios propostos foram desenvolvidos na pasta middlewares, routes e validat
 ### :hammer: Instalação: 
 - Baixe o projeto <code>git clone git@github.com:luizfelipe-dev/NodeJS-Talker-Manager.git</code>
 - Entre na pasta <code> cd NodeJS-Talker-Manager </code>
-- Entre na branch <code> git checkout luizfelipedev-talker-manager</code>
 - Instale as dependências com <code> npm install </code> 
 - Inicie o servidor com <code> npm start </code> 
 
