@@ -1,3 +1,8 @@
+# Onde começa?
+
+O projeto começa na pasta raiz em index.js.
+O router do express chamará os middlewares, que por sua vez chamará as validações.
+
 ## Testes
 
 Os testes da pasta 'tests' já vieram escritos para avaliação automática

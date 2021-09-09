@@ -18,7 +18,7 @@ Os desafios propostos foram desenvolvidos na pasta middlewares, routes e validat
 
 ### :stethoscope: Para testar os endpoints:
 
-Siga as informações comentadas dentro do arquivo index.js **na pasta router**
+Siga as informações na pasta 'middlewares'
 
 ## Ferramentas utilizadas:
 

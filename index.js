@@ -1,4 +1,4 @@
-// This file is the Entrypoint
+// Entrypoint
 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -11,7 +11,7 @@ app.use(talkRoutes);
 const HTTP_OK_STATUS = 200;
 const PORT = '3000';
 
-// endpoint para o avaliador funcionar
+// endpoint just for evaluator
 app.get('/', (_request, response) => {
   response.status(HTTP_OK_STATUS).send();
 });

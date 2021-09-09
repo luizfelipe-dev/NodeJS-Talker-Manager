@@ -1,14 +1,3 @@
-/* Exemplo para testar: 
-
-POST - localhost:3000/login
-
-JSON no body da Requisicao:
-  {
-    "email": pessoa22@uol.com,
-    "password": 2345
-  }
-*/
-
 const crypto = require('crypto');
 
 const { validateEmail } = require('../validations/validations');

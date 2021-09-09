@@ -1,3 +1,9 @@
+/* Exemplo para testar:
+
+No Navegador digite a URL: http://localhost:3000/talker
+
+*/
+
 const fs = require('fs').promises;
 
 function getAllTalkers(_req, res) {

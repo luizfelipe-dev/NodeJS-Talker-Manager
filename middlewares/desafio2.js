@@ -1,9 +1,3 @@
-/* Exemplo para testar 
-
-URL no navegador: localhost:3000/talker/3 
-
-*/
-
 const fs = require('fs').promises;
 
 const getTalkerById = async (req, res) => {

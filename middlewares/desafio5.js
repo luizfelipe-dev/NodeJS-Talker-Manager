@@ -1,19 +1,3 @@
-/* Exemplo para testar
-
-Método PUT -> localhost:3000/talker/1
-
-no body da requisição: 
-
-  {
-    "name": "Henrique Alvarenga",
-    "age": 42,
-    "talk": {
-      "watchedAt": "24/10/2020",
-      "rate": 4
-    }
-  }
-*/  
-
 const fs = require('fs').promises;
 
 const updateTalker = async (req, res) => {
